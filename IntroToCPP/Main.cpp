@@ -1,6 +1,6 @@
 #include <iostream>
 
-void FizzBuzz(int num)
+void fizzBuzz(int num)
 {
 	for (int i = 0; i <= num; i++)
 	{
@@ -27,7 +27,7 @@ int main()
 	std::cout << "Please type a number: ";
 	std::cin >> num;
 
-	FizzBuzz(num);
+	fizzBuzz(num);
 	
 
 	system("pause");
